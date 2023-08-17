@@ -5,8 +5,9 @@ using Entities.Models;
 
 namespace NET6Proyect.Controllers
 {
+    
+    [Route("empleado")]
     [ApiController]
-    [Route("[empleado]")]
     public class EmpleadoController : ControllerBase
     {        
         public readonly DbtrabajoContext _dbContext;
@@ -17,9 +18,8 @@ namespace NET6Proyect.Controllers
         }
 
         [HttpGet]
-        [Route("[Obtener]")]
-
-        public IActionResult GetEmpleado()
+        [Route("Obtener")]
+        public async Task<IActionResult> GetEmpleado()
         {
             List<Empleado> list = new List<Empleado>(); 
             
@@ -32,7 +32,7 @@ namespace NET6Proyect.Controllers
             }
             catch (Exception ex) {
 
-                return StatusCode(StatusCodes.Status200OK, new { mensaje = ex, Response = list });
+                return StatusCode(StatusCodes.Status500InternalServerError, new { mensaje = ex, Response = list });
             }
         }
 
