@@ -120,3 +120,5 @@ C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\obj\Debug\net6.0\ref\NET6Pr
 C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\bin\Debug\net6.0\libman.json
 C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\bin\Debug\net6.0\Entities.dll
 C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\bin\Debug\net6.0\Entities.pdb
+C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\bin\Debug\net6.0\Contract.dll
+C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\bin\Debug\net6.0\Contract.pdb

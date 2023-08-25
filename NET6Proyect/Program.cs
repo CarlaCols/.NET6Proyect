@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Entities.Models;
+using Contract.Interface;
+using Contract.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,8 @@ builder.Services.AddSwaggerGen();
 
 // Cadena de conexion
 builder.Services.AddDbContext<DbtrabajoContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("cadenaSQL")));
+builder.Services.AddTransient<IEmpleadoService, EmpleadoService>();
+
 
 var app = builder.Build();
 
