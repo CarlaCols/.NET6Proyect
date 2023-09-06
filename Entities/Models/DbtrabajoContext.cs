@@ -16,9 +16,7 @@ public partial class DbtrabajoContext : DbContext
     }
 
     public virtual DbSet<Cargo> Cargos { get; set; }
-
     public virtual DbSet<Empleado> Empleados { get; set; }
-
     public virtual DbSet<Empresa> Empresas { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }

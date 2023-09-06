@@ -1,5 +1,6 @@
 ﻿using Contract.Interface;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,8 @@ namespace Contract.Services
         {
             _dbContext = dbContext;
         }
+        
+        //Obtener Lista de empleados
         public List<Empleado> GetEmpleado()
         {
             var list = new List<Empleado>();
@@ -26,12 +29,28 @@ namespace Contract.Services
                 return list;
 
             }
-            catch (Exception ex)]
+            catch (Exception ex)
             {
 
                 return list;
             }
         }
+        //Agregar nuevo empleado 
+        public bool AddEmpleado(Empleado empleado)
+        {
+           
+           var empleadoExist = _dbContext.Empleados.Where(p => p.Dni == empleado.Dni).FirstOrDefault();
+           
+            if(empleadoExist != null ) 
+                return false;
+
+            _dbContext.Empleados.Add(empleado);
+            _dbContext.SaveChanges();
+
+            return true;    
+        }
+
 
     }
 }
+
