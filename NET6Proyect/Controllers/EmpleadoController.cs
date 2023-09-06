@@ -11,7 +11,7 @@ namespace NET6Proyect.Controllers
     [Route("empleado")]
     [ApiController]
     public class EmpleadoController : ControllerBase
-    {        
+    {
         public readonly DbtrabajoContext _dbContext;
         public readonly IEmpleadoService _service;
 
@@ -28,7 +28,7 @@ namespace NET6Proyect.Controllers
             var result = _service.GetEmpleado();
             return Ok(result);
         }
-        // return StatusCode(StatusCodes.Status200OK, new {mensaje = "ok", Response = list   
+        // return StatusCode(StatusCodes.Status200OK, new {mensaje = "ok", Response = list
         //return StatusCode(StatusCodes.Status500InternalServerError, new { mensaje = ex, Response = list });
 
 
@@ -37,7 +37,7 @@ namespace NET6Proyect.Controllers
         public IActionResult AddEmpleado(Empleado empleado)
         {
             var result = _service.AddEmpleado(empleado);
-           
+
             if (!result)
                 return BadRequest(empleado);
 
