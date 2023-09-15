@@ -122,3 +122,4 @@ C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\obj\Debug\net6.0\refint\NET
 C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\obj\Debug\net6.0\NET6Proyect.pdb
 C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\obj\Debug\net6.0\NET6Proyect.genruntimeconfig.cache
 C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\obj\Debug\net6.0\ref\NET6Proyect.dll
+C:\Users\Carla\source\repos\.NET6Proyect\NET6Proyect\bin\Debug\net6.0\ServiceStack.Interfaces.dll

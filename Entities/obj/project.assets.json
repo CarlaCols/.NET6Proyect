@@ -666,6 +666,15 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "ServiceStack.Interfaces/6.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -2129,6 +2138,20 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "ServiceStack.Interfaces/6.10.0": {
+      "sha512": "5dLzkgka50hwv6U3ur11F3D7SiX0LHYbAs5Ax0hDJuJBko2OAdQ6nO+NiXCVXP68IfvxPcPTKZ+T1AyXaY6wdw==",
+      "type": "package",
+      "path": "servicestack.interfaces/6.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ServiceStack.Interfaces.dll",
+        "lib/net6.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "servicestack.interfaces.6.10.0.nupkg.sha512",
+        "servicestack.interfaces.nuspec"
+      ]
+    },
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -3505,7 +3528,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.9",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.9"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.9",
+      "ServiceStack.Interfaces >= 6.10.0"
     ]
   },
   "packageFolders": {
@@ -3561,6 +3585,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.9, )"
+          },
+          "ServiceStack.Interfaces": {
+            "target": "Package",
+            "version": "[6.10.0, )"
           }
         },
         "imports": [

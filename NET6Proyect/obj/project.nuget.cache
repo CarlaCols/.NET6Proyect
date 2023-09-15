@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z0G9SqzyNLNu2p/uaLUcT8Uz/TMC3gAzCp95kupZQMfe3cN5EHB0gjLTm5/yIwlsMs4Bpwvri9pruCtI7MYUQw==",
+  "dgSpecHash": "2QIKbr/yHqwUNzdRxdClAcwb9Qq6T+z2e2tzUWwlQZQVa3F9N6w/gH8jsXfSyuQfaIwhves3bAxL4K0Qy7dxYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Carla\\source\\repos\\.NET6Proyect\\NET6Proyect\\NET6Proyect.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\Carla\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Carla\\.nuget\\packages\\servicestack.interfaces\\6.10.0\\servicestack.interfaces.6.10.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fVsb8pR/dQOwywS7/RdPRkFk0ul0bZz8+LW/SGxNMebh8y8W82+s7W3HX16FtbPWIj2H15Nl+OQ9y0Krx2n6dQ==",
+  "dgSpecHash": "mxTcz7EbeJOFZ2E3gTkAqeC8JrSCUOj4tjILH6KRG7jYh8iQDUMYkVn6gqMd6Nm65I0KBl5RWqkpRUXQc02zMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Carla\\source\\repos\\.NET6Proyect\\Contract\\Contract.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\Carla\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Carla\\.nuget\\packages\\servicestack.interfaces\\6.10.0\\servicestack.interfaces.6.10.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",

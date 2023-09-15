@@ -44,6 +44,8 @@ namespace Contract.Services
             if(empleadoExist != null ) 
                 return false;
 
+            empleado.Id = Guid.NewGuid();
+            
             _dbContext.Empleados.Add(empleado);
             _dbContext.SaveChanges();
 

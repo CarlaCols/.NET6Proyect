@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P9tEWGoiU/3s/wVCvhLOpdMgT/is/beRVOzJi8Mcgk6BFinoDT3DK8Gv72n/BS7Ereg6YvkREsxmFe6UdI5KLw==",
+  "dgSpecHash": "cn4kdiULl88vagILoSDuG20FBLyntBwF/Nu95dnXZyOCUwPAGVw23tXXMz7qh8qjD9yNHarz4GOsfOqQAUTO3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Carla\\source\\repos\\.NET6Proyect\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\Carla\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Carla\\.nuget\\packages\\servicestack.interfaces\\6.10.0\\servicestack.interfaces.6.10.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Carla\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

@@ -396,6 +396,14 @@
           }
         }
       },
+      "ServiceStack.Interfaces/6.10.0": {
+        "runtime": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.10.0.0"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.Configuration.ConfigurationManager/5.0.0": {
         "dependencies": {
@@ -612,7 +620,8 @@
       },
       "Entities/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
+          "ServiceStack.Interfaces": "6.10.0"
         },
         "runtime": {
           "Entities.dll": {}
@@ -856,6 +865,13 @@
       "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "ServiceStack.Interfaces/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5dLzkgka50hwv6U3ur11F3D7SiX0LHYbAs5Ax0hDJuJBko2OAdQ6nO+NiXCVXP68IfvxPcPTKZ+T1AyXaY6wdw==",
+      "path": "servicestack.interfaces/6.10.0",
+      "hashPath": "servicestack.interfaces.6.10.0.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

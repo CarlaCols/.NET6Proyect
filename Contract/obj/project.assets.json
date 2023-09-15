@@ -587,6 +587,15 @@
           }
         }
       },
+      "ServiceStack.Interfaces/6.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -1051,7 +1060,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
+          "ServiceStack.Interfaces": "6.10.0"
         },
         "compile": {
           "bin/placeholder/Entities.dll": {}
@@ -1932,6 +1942,20 @@
         "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "ServiceStack.Interfaces/6.10.0": {
+      "sha512": "5dLzkgka50hwv6U3ur11F3D7SiX0LHYbAs5Ax0hDJuJBko2OAdQ6nO+NiXCVXP68IfvxPcPTKZ+T1AyXaY6wdw==",
+      "type": "package",
+      "path": "servicestack.interfaces/6.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ServiceStack.Interfaces.dll",
+        "lib/net6.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "servicestack.interfaces.6.10.0.nupkg.sha512",
+        "servicestack.interfaces.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
