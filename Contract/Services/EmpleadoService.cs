@@ -1,5 +1,6 @@
 ﻿using Contract.Interface;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
@@ -52,7 +53,26 @@ namespace Contract.Services
             return true;    
         }
 
+        //Editar empleado 
+        public bool EditEmpleado(Empleado empleado)
+        {
+            var empleadoModified = _dbContext.Empleados.Where(w=>w.Dni ==empleado.Dni).FirstOrDefault();
 
+            if (empleadoModified == null)
+            {               
+               return false;    
+            }
+            //empleado.Id = empleado.Id;  
+            empleado.Dni = empleadoModified.Dni;
+            empleado.Nombre = empleadoModified.Nombre;
+            empleado.Apellido = empleadoModified.Apellido;
+            empleado.Email = empleadoModified.Email;
+            
+            _dbContext.Add(empleado);
+            _dbContext.SaveChanges();
+            
+            return true;    
+        }
     }
 }
 

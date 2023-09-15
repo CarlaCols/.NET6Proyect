@@ -43,5 +43,17 @@ namespace NET6Proyect.Controllers
 
             return Ok(empleado);
         }
+
+        [HttpPut]
+        [Route("EditEmpleado")]
+        public IActionResult EditEmpleado(Empleado empleado)
+        {
+            var result = _service.EditEmpleado(empleado);
+
+            if (!result)
+                return BadRequest(empleado);
+
+            return Ok(empleado);
+        }
     }
 }
